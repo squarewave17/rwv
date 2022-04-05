@@ -1,104 +1,625 @@
 {
-  "events": [
+  "fonts": [
     {
-      "id": 123,
-      "category": "animal welfare",
-      "title": "Cat Adoption Day",
-      "description": "Find your new feline friend at this event.",
-      "location": "Meow Town",
-      "date": "January 28, 2022",
-      "time": "12:00",
-      "organizer": "Kat Laydee"
+      "var": "--of-font-size-f1",
+      "max": "160",
+      "min": "69"
     },
     {
-      "id": 456,
-      "category": "food",
-      "title": "Community Gardening",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f2",
+      "max": "95",
+      "min": "57"
     },
     {
-      "id": 457,
-      "category": "food",
-      "title": "Pies",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f3",
+      "max": "76",
+      "min": "48"
     },
     {
-      "id": 442,
-      "category": "food",
-      "title": "Chips",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f4",
+      "max": "61",
+      "min": "40"
     },
     {
-      "id": 156,
-      "category": "food",
-      "title": "Grass Cutting",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f5",
+      "max": "49",
+      "min": "33"
     },
     {
-      "id": 646,
-      "category": "food",
-      "title": "Church",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f6",
+      "max": "39",
+      "min": "28"
     },
     {
-      "id": 896,
-      "category": "food",
-      "title": "Blogosphere",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f7",
+      "max": "31",
+      "min": "23"
     },
     {
-      "id": 45,
-      "category": "food",
-      "title": "Quit Job",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f8",
+      "max": "25",
+      "min": "19"
     },
     {
-      "id": 49,
-      "category": "food",
-      "title": "chip Tasting",
-      "description": "Join us as we tend to the community edible plants.",
-      "location": "Flora City",
-      "date": "March 14, 2022",
-      "time": "10:00",
-      "organizer": "Fern Pollin"
+      "var": "--of-font-size-f9",
+      "max": "20",
+      "min": "16"
     },
     {
-      "id": 789,
-      "category": "sustainability",
-      "title": "Beach Cleanup",
-      "description": "Help pick up trash along the shore.",
-      "location": "Playa Del Carmen",
-      "date": "July 22, 2022",
-      "time": "11:00",
-      "organizer": "Carey Wales"
+      "var": "--of-font-size-f10",
+      "max": "16",
+      "min": "14"
+    },
+    {
+      "var": "--of-font-size-f11",
+      "max": "14",
+      "min": "12"
     }
-  ]
+  ],
+  "space": [
+    {
+      "var": "--of-space-f1",
+      "max": "4",
+      "min": "2"
+    },
+    {
+      "var": "--of-space-f2",
+      "max": "8",
+      "min": "4"
+    },
+    {
+      "var": "--of-space-f3",
+      "max": "12",
+      "min": "8"
+    },
+    {
+      "var": "--of-space-f4",
+      "max": "16",
+      "min": "12"
+    },
+    {
+      "var": "--of-space-f5",
+      "max": "24",
+      "min": "16"
+    },
+    {
+      "var": "--of-space-f6",
+      "max": "32",
+      "min": "20"
+    },
+    {
+      "var": "--of-space-f7",
+      "max": "48",
+      "min": "32"
+    },
+    {
+      "var": "--of-space-f8",
+      "max": "64",
+      "min": "48"
+    },
+    {
+      "var": "--of-space-f9",
+      "max": "96",
+      "min": "64"
+    },
+    {
+      "var": "--of-space-f10",
+      "max": "128",
+      "min": "96"
+    },
+    {
+      "var": "--of-space-f11",
+      "max": "192",
+      "min": "128"
+    },
+    {
+      "var": "--of-space-f12",
+      "max": "256",
+      "min": "192"
+    },
+    {
+      "var": "--of-space-f13",
+      "max": "384",
+      "min": "256"
+    },
+    {
+      "var": "--of-space-f14",
+      "max": "512",
+      "min": "384"
+    },
+    {
+      "var": "--of-space-f15",
+      "max": "640",
+      "min": "512"
+    },
+    {
+      "var": "--of-space-f16",
+      "max": "768",
+      "min": "640"
+    }
+  ],
+  "colors": {
+    "colorsIncrement": 152,
+    "setsIncrement": 9,
+    "colors": [
+      {
+        "id": 77,
+        "name": "Light",
+        "value": "#faf9f9",
+        "set": 6
+      },
+      {
+        "id": 78,
+        "name": "Secondary",
+        "value": "#969fac",
+        "set": 6
+      },
+      {
+        "id": 79,
+        "name": "Primary",
+        "value": "#979dac",
+        "set": 6
+      },
+      {
+        "id": 80,
+        "name": "Tertiary",
+        "value": "#7f7e92",
+        "set": 6
+      },
+      {
+        "id": 81,
+        "name": "Dark",
+        "value": "#20264b",
+        "set": 6
+      },
+      {
+        "id": 82,
+        "name": "Light-50",
+        "value": "#f7f6f6",
+        "set": 7
+      },
+      {
+        "id": 83,
+        "name": "Light-100",
+        "value": "#f0efef",
+        "set": 7
+      },
+      {
+        "id": 84,
+        "name": "Light-200",
+        "value": "#e0dfdf",
+        "set": 7
+      },
+      {
+        "id": 85,
+        "name": "Light-300",
+        "value": "#cac9c9",
+        "set": 7
+      },
+      {
+        "id": 86,
+        "name": "Light-400",
+        "value": "#a9a8a8",
+        "set": 7
+      },
+      {
+        "id": 87,
+        "name": "Light-500",
+        "value": "#888787",
+        "set": 7
+      },
+      {
+        "id": 88,
+        "name": "Light-600",
+        "value": "#6d6c6c",
+        "set": 7
+      },
+      {
+        "id": 89,
+        "name": "Light-700",
+        "value": "#5f5f5f",
+        "set": 7
+      },
+      {
+        "id": 90,
+        "name": "Light-800",
+        "value": "#4b4a4a",
+        "set": 7
+      },
+      {
+        "id": 91,
+        "name": "Light-900",
+        "value": "#3d3d3d",
+        "set": 7
+      },
+      {
+        "id": 92,
+        "name": "Secondary-50",
+        "value": "#f6f7f8",
+        "set": 7
+      },
+      {
+        "id": 93,
+        "name": "Secondary-100",
+        "value": "#eeeff1",
+        "set": 7
+      },
+      {
+        "id": 94,
+        "name": "Secondary-200",
+        "value": "#dcdfe4",
+        "set": 7
+      },
+      {
+        "id": 95,
+        "name": "Secondary-300",
+        "value": "#c5cad1",
+        "set": 7
+      },
+      {
+        "id": 96,
+        "name": "Secondary-400",
+        "value": "#a1a9b5",
+        "set": 7
+      },
+      {
+        "id": 97,
+        "name": "Secondary-500",
+        "value": "#818893",
+        "set": 7
+      },
+      {
+        "id": 98,
+        "name": "Secondary-600",
+        "value": "#676d76",
+        "set": 7
+      },
+      {
+        "id": 99,
+        "name": "Secondary-700",
+        "value": "#5a6067",
+        "set": 7
+      },
+      {
+        "id": 100,
+        "name": "Secondary-800",
+        "value": "#474b51",
+        "set": 7
+      },
+      {
+        "id": 101,
+        "name": "Secondary-900",
+        "value": "#3a3d43",
+        "set": 7
+      },
+      {
+        "id": 102,
+        "name": "Primary-50",
+        "value": "#f6f7f8",
+        "set": 7
+      },
+      {
+        "id": 103,
+        "name": "Primary-100",
+        "value": "#eeeff1",
+        "set": 7
+      },
+      {
+        "id": 104,
+        "name": "Primary-200",
+        "value": "#dddfe4",
+        "set": 7
+      },
+      {
+        "id": 105,
+        "name": "Primary-300",
+        "value": "#c6cad2",
+        "set": 7
+      },
+      {
+        "id": 106,
+        "name": "Primary-400",
+        "value": "#a3a8b6",
+        "set": 7
+      },
+      {
+        "id": 107,
+        "name": "Primary-500",
+        "value": "#828895",
+        "set": 7
+      },
+      {
+        "id": 108,
+        "name": "Primary-600",
+        "value": "#686d77",
+        "set": 7
+      },
+      {
+        "id": 109,
+        "name": "Primary-700",
+        "value": "#5b5f68",
+        "set": 7
+      },
+      {
+        "id": 110,
+        "name": "Primary-800",
+        "value": "#484a52",
+        "set": 7
+      },
+      {
+        "id": 111,
+        "name": "Primary-900",
+        "value": "#3b3d43",
+        "set": 7
+      },
+      {
+        "id": 112,
+        "name": "Tertiary-50",
+        "value": "#f7f7f8",
+        "set": 7
+      },
+      {
+        "id": 113,
+        "name": "Tertiary-100",
+        "value": "#efeff1",
+        "set": 7
+      },
+      {
+        "id": 114,
+        "name": "Tertiary-200",
+        "value": "#dfdfe4",
+        "set": 7
+      },
+      {
+        "id": 115,
+        "name": "Tertiary-300",
+        "value": "#c9c9d1",
+        "set": 7
+      },
+      {
+        "id": 116,
+        "name": "Tertiary-400",
+        "value": "#a8a7b5",
+        "set": 7
+      },
+      {
+        "id": 117,
+        "name": "Tertiary-500",
+        "value": "#878699",
+        "set": 7
+      },
+      {
+        "id": 118,
+        "name": "Tertiary-600",
+        "value": "#6c6b7c",
+        "set": 7
+      },
+      {
+        "id": 119,
+        "name": "Tertiary-700",
+        "value": "#5e5e6d",
+        "set": 7
+      },
+      {
+        "id": 120,
+        "name": "Tertiary-800",
+        "value": "#4a4955",
+        "set": 7
+      },
+      {
+        "id": 121,
+        "name": "Tertiary-900",
+        "value": "#3d3c46",
+        "set": 7
+      },
+      {
+        "id": 122,
+        "name": "Dark-50",
+        "value": "#f6f7f8",
+        "set": 7
+      },
+      {
+        "id": 123,
+        "name": "Dark-100",
+        "value": "#eeeff2",
+        "set": 7
+      },
+      {
+        "id": 124,
+        "name": "Dark-200",
+        "value": "#dedfe4",
+        "set": 7
+      },
+      {
+        "id": 125,
+        "name": "Dark-300",
+        "value": "#c8c9d2",
+        "set": 7
+      },
+      {
+        "id": 126,
+        "name": "Dark-400",
+        "value": "#a5a7b6",
+        "set": 7
+      },
+      {
+        "id": 127,
+        "name": "Dark-500",
+        "value": "#83879b",
+        "set": 7
+      },
+      {
+        "id": 128,
+        "name": "Dark-600",
+        "value": "#676b84",
+        "set": 7
+      },
+      {
+        "id": 129,
+        "name": "Dark-700",
+        "value": "#595e79",
+        "set": 7
+      },
+      {
+        "id": 130,
+        "name": "Dark-800",
+        "value": "#444968",
+        "set": 7
+      },
+      {
+        "id": 131,
+        "name": "Dark-900",
+        "value": "#363b5c",
+        "set": 7
+      },
+      {
+        "id": 132,
+        "name": "White",
+        "value": "#ffffff",
+        "set": 8
+      },
+      {
+        "id": 133,
+        "name": "Gray-50",
+        "value": "#f7f7f7",
+        "set": 8
+      },
+      {
+        "id": 134,
+        "name": "Gray-100",
+        "value": "#efefef",
+        "set": 8
+      },
+      {
+        "id": 135,
+        "name": "Gray-200",
+        "value": "#dfdfdf",
+        "set": 8
+      },
+      {
+        "id": 136,
+        "name": "Gray-300",
+        "value": "#cacaca",
+        "set": 8
+      },
+      {
+        "id": 137,
+        "name": "Gray-400",
+        "value": "#a8a8a8",
+        "set": 8
+      },
+      {
+        "id": 138,
+        "name": "Gray-500",
+        "value": "#878787",
+        "set": 8
+      },
+      {
+        "id": 139,
+        "name": "Gray-600",
+        "value": "#6d6d6d",
+        "set": 8
+      },
+      {
+        "id": 140,
+        "name": "Gray-700",
+        "value": "#5f5f5f",
+        "set": 8
+      },
+      {
+        "id": 141,
+        "name": "Gray-800",
+        "value": "#4a4a4a",
+        "set": 8
+      },
+      {
+        "id": 142,
+        "name": "Gray-900",
+        "value": "#3d3d3d",
+        "set": 8
+      },
+      {
+        "id": 143,
+        "name": "Black",
+        "value": "#141414",
+        "set": 8
+      },
+      {
+        "id": 144,
+        "name": "Danger-Light",
+        "value": "#f66a5f",
+        "set": 9
+      },
+      {
+        "id": 145,
+        "name": "Danger",
+        "value": "#f44336",
+        "set": 9
+      },
+      {
+        "id": 146,
+        "name": "Danger-Dark",
+        "value": "#e31b0c",
+        "set": 9
+      },
+      {
+        "id": 147,
+        "name": "Warning-Light",
+        "value": "#ccac6b",
+        "set": 9
+      },
+      {
+        "id": 148,
+        "name": "Warning",
+        "value": "#bf9747",
+        "set": 9
+      },
+      {
+        "id": 149,
+        "name": "Warning-Dark",
+        "value": "#9b7936",
+        "set": 9
+      },
+      {
+        "id": 150,
+        "name": "Success-Light",
+        "value": "#61c29b",
+        "set": 9
+      },
+      {
+        "id": 151,
+        "name": "Success",
+        "value": "#41a87f",
+        "set": 9
+      },
+      {
+        "id": 152,
+        "name": "Success-Dark",
+        "value": "#358867",
+        "set": 9
+      }
+    ],
+    "sets": [
+      {
+        "id": 0,
+        "name": "Global Colors"
+      },
+      {
+        "id": 6,
+        "name": "Main Palette"
+      },
+      {
+        "id": 7,
+        "name": "Variations"
+      },
+      {
+        "id": 8,
+        "name": "Greyscale"
+      },
+      {
+        "id": 9,
+        "name": "Indicators"
+      }
+    ]
+  }
 }
